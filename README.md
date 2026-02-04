@@ -12,7 +12,6 @@ cd raytracer
 ```
 
 ## Usage
-
 Run the ray tracer:
 ```bash
 cargo run --release
