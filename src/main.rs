@@ -493,7 +493,7 @@ fn cast_ray(
 
         let roughness = match hit_object.unwrap() {
             SceneObject::PlaneObj(_) => 0.90,
-            SceneObject::SphereObj(_) => 0.00,
+            SceneObject::SphereObj(_) => 0.90,
         };
 
         let reflection_dir =
